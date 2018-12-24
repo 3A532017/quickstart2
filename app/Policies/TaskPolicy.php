@@ -19,8 +19,5 @@ class TaskPolicy
     {
         return $user->id === $task->user_id;
     }
-    public function __construct()
-    {
-        //
-    }
+
 }
